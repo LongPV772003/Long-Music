@@ -1,0 +1,145 @@
+html{
+    background-image: url('./img/anh-dep-gai-xinh.jpg');
+    background-repeat:inherit;
+
+}
+.container-music{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+
+}
+.player{
+    width:460px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.dashboard{
+    position:sticky;
+    top:0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    z-index: 1;
+    background-color: #e4d7cb;
+    border-radius: 5%;
+    opacity:0.8;
+}
+.dashboard h4{
+    text-align: center;
+    color:#EC1F55;
+    font-size: 20px;
+}
+.cd-thumb img{
+    border-radius: 300px;
+    zoom:0.4;
+    display:block;
+    margin: 0 auto 15px auto;
+}
+.dashboard h2{
+    text-align: center;
+    color:#0165b1;
+    margin-top: -20px;
+    font-size: 20px;
+}
+.btn-prev:active{
+    color:#EC1F55;
+}
+.btn-toggle-play:active{
+    color:#EC1F55;
+}
+.btn-next:active{
+    color:#EC1F55;
+}
+.btn-volume-down:active{
+    color:#EC1F55;
+}
+.btn-volume-up:active{
+    color:#EC1F55;
+}
+.control{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:5px 10px;
+    font-size: 20px;
+    color:#69b7de;
+    cursor:pointer;
+}
+.icon-pause{
+    display:none;
+}
+#progress{
+    width:100%;
+    padding:0px 0;
+    border-radius: 3px;
+    color:#b3e3fd;
+    margin-bottom: 10px;
+    cursor:pointer;
+}
+input[type="range"]{
+    border-radius: 0;
+    color:#EC1F55;
+}
+.song:hover{
+    cursor:pointer;
+    transform:translateX(-10px);
+}
+.song:active{
+    opacity:0.8;
+}
+.song{
+    display:flex;
+    align-items: center;
+    position:relative;
+    border: 1px solid #D1C2B5;
+    border-radius: 20px;
+    padding-left:20px;
+    padding-right:20px;
+    box-shadow:0 2px 2px 0 #D1C2B5;
+    margin-bottom: 10px;
+    opacity:0.8;
+    background-color: #D1C2B5;
+}
+.thumb{
+    padding-right: 30px;
+    padding-left: 10px;
+}
+.song .thumb img{
+    zoom:0.12;
+    border-radius: 300px;
+}
+.active{
+    color:#EC1F55;
+}
+.body h4{
+    margin-bottom: -5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.body p{
+    font-size: 15px;
+    color:#424242
+}
+.option{
+    position:absolute;
+    right:0;
+    padding:20px;
+    font-size: 22px;
+}
+.btn-toggle-play{
+    padding:15px 20px;
+    border:1px solid #c1c1c1;
+    border-radius: 2000px;
+    background-color: #EC1F55;
+    color:#fff;
+}
+
+  
+
+  
+
